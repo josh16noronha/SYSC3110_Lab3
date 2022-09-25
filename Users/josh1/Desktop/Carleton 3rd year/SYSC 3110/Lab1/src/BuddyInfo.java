@@ -33,6 +33,11 @@ public class BuddyInfo {
 
     private String phone_number;
 
+    public String Buddyname(){
+        return this.name;
+
+    }
+
 
     public static void main(String[] args) {
         BuddyInfo Info = new BuddyInfo("Homer", "123 Dill rd", "324-555-6789");
