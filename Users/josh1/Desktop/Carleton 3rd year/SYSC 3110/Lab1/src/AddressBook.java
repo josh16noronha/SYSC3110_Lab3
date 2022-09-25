@@ -26,27 +26,10 @@ public class AddressBook {
         addressBook.addBuddy("Tom",buddy);
         addressBook.removeBuddy("Tom");
 
-        AddressBook Info = new AddressBook();
-
-        String per1_name = "Franky";
-        String per2_name = "Billy";
-
-        BuddyInfo per1 = new BuddyInfo(per1_name, "123 Dill rd", "324-555-6789");
-        BuddyInfo per2 = new BuddyInfo(per2_name, "479 Bob rd", "777-505-6759");
+        //Tom is new buddy
 
 
-        Info.addBuddy(per1_name,per1);
-        Info.addBuddy(per2_name,per2);
 
-        System.out.println("Size of Hashmap:" + Info.address_book.size());
-        System.out.println("Values of Hashmap:" +Info.address_book.values());
-        System.out.println("Keys in Hashmap:" +Info.address_book.keySet());
-
-        Info.removeBuddy("Franky");
-
-        System.out.println("Size of Hashmap:" + Info.address_book.size());
-        System.out.println("Values of Hashmap:" +Info.address_book.values());
-        System.out.println("Keys in Hashmap:" +Info.address_book.keySet());
 
 
     }
